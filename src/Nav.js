@@ -1,4 +1,5 @@
-import React,{useEffect, useState} from 'react'
+import React,{useEffect, useState} from 'react';
+import './nav.css'
 // import logo from './netfllix-logo'
 export default function Nav() {
     const [show, handleShow] = useState(false)
@@ -14,8 +15,8 @@ export default function Nav() {
     },[])
     return (
         <div className={`nav ${show && "nav__black"}`}>
-            <img src="/netflix-logo.png" alt="nav__logo" className="nav__logo"/>
-            <img src="https//pbs/twimg.co/profile_images/124011999041155" alt="nav__avatar" className="nav__avatar"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="nav__logo" className="nav__logo"/>
+            <div className="nav__avatar"></div>
         </div>
     )
 }
