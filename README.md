@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Link]()
+[Link](https://clo-netflix.netlify.app)
 
 ## Getting Started
 
